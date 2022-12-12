@@ -22,3 +22,4 @@ condition=`xmllint --xpath \
      <(echo $weather)`
 
 echo $state" ("$zip") : Current temp "$current"F and "$condition" outside." 
+

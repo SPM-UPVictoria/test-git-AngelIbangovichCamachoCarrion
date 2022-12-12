@@ -8,3 +8,4 @@ curl -s -dump "$baseURL/$1.html" | \
    cut -d\( -f2 | cut -d\) -f1
 
 exit 0
+
